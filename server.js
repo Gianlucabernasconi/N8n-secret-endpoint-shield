@@ -4,7 +4,7 @@ require('dotenv').config();
 
 
 const helmet = require('helmet');
-const webhookRoutes = require('./routes/webhookRoutes');
+const webhookRoutes = require('./src/routes/webhookRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
